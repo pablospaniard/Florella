@@ -1,0 +1,193 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #c8c8c8;
+  text-decoration: none;
+}
+
+.container {
+  width: 970px;
+}
+
+header {
+  margin-bottom: 0;
+  background: #FFCAD4;
+}
+
+header .social {
+  margin-right: 0;
+}
+
+header .container {
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#jumbotron {
+  padding: 0;
+  margin-top: 50px;
+  color: #fff;
+  text-shadow: 3px 3px 100px black;
+}
+
+#jumbotron .jumbotron {
+  border-radius: 0;
+  margin-bottom: 0;
+  text-align: center;
+  background-image: url(../img/bg-photo-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+#logo {
+  font-family: "Edwardian Script ITC";
+  font-size: 25rem;
+}
+
+nav {
+  background: #FFCAD4;
+  margin-bottom: 40px;
+}
+
+nav .nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0 15px;
+}
+
+nav a:hover {
+  background: #D8E2DC !important;
+  color: #FFCAD4;
+  border-radius: 10px;
+}
+
+.item {
+  border: none;
+  padding: 0;
+}
+
+.item .btn {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.item .btn:hover {
+  background: #FFCAD4;
+  color: white;
+  border: none;
+}
+
+#about {
+  text-align: center;
+  height: 447px;
+  background-image: url(../img/bg-foto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 40px 0;
+  margin: 40px 0;
+  color: white;
+}
+
+#about .container-fluid {
+  margin-top: 50px;
+}
+
+.text-about {
+  width: 970px;
+  margin: 20px auto;
+}
+
+#link-about {
+  color: white;
+}
+
+#link-about:hover {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#testimonials {
+  text-align: center;
+}
+
+#testimonials img {
+  margin-bottom: 20px;
+}
+
+#testimonials p {
+  margin-bottom: 40px;
+}
+
+#advice {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#advice #advice-image {
+  width: 100%;
+  height: 350px;
+  background: url("../img/advice.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#advice #advice-image h2 {
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  text-shadow: 1px 1px 10px black;
+}
+
+#advice hr {
+  margin-bottom: 40px;
+}
+
+#advice .col-sm-12 {
+  padding: 0 0;
+}
+
+#link-advice {
+  color: black;
+}
+
+footer {
+  background: #FFCAD4;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer #redstar {
+  float: right;
+}
+
+footer nav {
+  margin-bottom: 0;
+}
+
+footer p {
+  padding: 15px 0;
+  margin-bottom: 0;
+}
