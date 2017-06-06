@@ -1,0 +1,33 @@
+@media only screen and (max-width: 992px) {
+     #main {
+         .container{
+             width: 100%;
+         }
+    }
+    
+    .text-about {
+        width: 100% !important;
+    }
+    
+    #bottom-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .item {
+        img {
+            width: 75%;
+        }
+    }
+    #main {
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    #logo {
+        font-size: $logo-font-size / 2 !important;
+    }
+    
+}

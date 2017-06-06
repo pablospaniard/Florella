@@ -1,6 +1,8 @@
 $logo-font: 'Edwardian Script ITC';
 $primary-text-color: #fff;
 $bg-color: #FFCAD4;
+$logo-font-size: 25rem;
+@import "media";
 body {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
@@ -14,22 +16,17 @@ a {
     }
 }
 
-.container {
-    width: 970px;
-}
-
 //HEADER
 header {
     margin-bottom: 0;
     background: $bg-color;
-    
     .social {
         margin-right: 0;
     }
     .container {
         line-height: 50px;
         display: flex;
-    justify-content: space-between;
+        justify-content: space-between;
     }
 }
 
@@ -53,25 +50,39 @@ header {
 
 #logo {
     font-family: $logo-font;
-    font-size: 25rem;
+    font-size: $logo-font-size;
 }
 
 //NAVBAR
-nav {
+.navbar-default {
     background: $bg-color;
     margin-bottom: 40px;
-    .nav {
-        display: flex;
-        justify-content: center;
-    }
+    border: none;
+    border-radius: 0;
     a {
         margin: 0 15px;
         &:hover {
-            background: #D8E2DC !important;
-            color: $bg-color;
+            background: black !important;
+            color: $bg-color !important;
             border-radius: 10px;
         }
     }
+    .active {
+        background: white;
+        a {
+            background-color: white !important;
+            &:hover {
+                border-radius: 0;
+        }
+        }
+
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    float: none;
 }
 
 //MAIN ITEMS
@@ -165,18 +176,15 @@ nav {
 }
 
 //FOOTER
-
 footer {
     background: $bg-color;
     .container {
         display: flex;
         justify-content: space-between;
     }
-    
     #redstar {
         float: right;
     }
-    
     nav {
         margin-bottom: 0;
     }

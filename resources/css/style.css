@@ -1,3 +1,28 @@
+@media only screen and (max-width: 992px) {
+  #main .container {
+    width: 100%;
+  }
+  .text-about {
+    width: 100% !important;
+  }
+  #bottom-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .item img {
+    width: 75%;
+  }
+  #main .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #logo {
+    font-size: 12.5rem !important;
+  }
+}
+
 body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
@@ -10,10 +35,6 @@ a {
 a:hover {
   color: #c8c8c8;
   text-decoration: none;
-}
-
-.container {
-  width: 970px;
 }
 
 header {
@@ -54,24 +75,39 @@ header .container {
   font-size: 25rem;
 }
 
-nav {
+.navbar-default {
   background: #FFCAD4;
   margin-bottom: 40px;
+  border: none;
+  border-radius: 0;
 }
 
-nav .nav {
-  display: flex;
-  justify-content: center;
-}
-
-nav a {
+.navbar-default a {
   margin: 0 15px;
 }
 
-nav a:hover {
-  background: #D8E2DC !important;
-  color: #FFCAD4;
+.navbar-default a:hover {
+  background: black !important;
+  color: #FFCAD4 !important;
   border-radius: 10px;
+}
+
+.navbar-default .active {
+  background: white;
+}
+
+.navbar-default .active a {
+  background-color: white !important;
+}
+
+.navbar-default .active a:hover {
+  border-radius: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  float: none;
 }
 
 .item {
