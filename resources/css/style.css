@@ -1,3 +1,9 @@
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   #main .container {
     width: 100%;
@@ -26,6 +32,8 @@
 body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -33,7 +41,7 @@ a {
 }
 
 a:hover {
-  color: #c8c8c8;
+  color: white;
   text-decoration: none;
 }
 
@@ -84,6 +92,7 @@ header .container {
 
 .navbar-default a {
   margin: 0 15px;
+  color: black !important;
 }
 
 .navbar-default a:hover {
@@ -123,7 +132,13 @@ header .container {
 .item .btn:hover {
   background: #FFCAD4;
   color: white;
-  border: none;
+  border-color: #FFCAD4;
+}
+
+.item .btn:active {
+  background: #FFCAD4;
+  color: white;
+  border-color: #FFCAD4;
 }
 
 #about {

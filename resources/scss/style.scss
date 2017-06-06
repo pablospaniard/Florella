@@ -2,16 +2,20 @@ $logo-font: 'Edwardian Script ITC';
 $primary-text-color: #fff;
 $bg-color: #FFCAD4;
 $logo-font-size: 25rem;
+
 @import "media";
+
 body {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 a {
     color: #000;
     &:hover {
-        color: #c8c8c8;
+        color: white;
         text-decoration: none;
     }
 }
@@ -61,6 +65,7 @@ header {
     border-radius: 0;
     a {
         margin: 0 15px;
+        color: black !important;
         &:hover {
             background: black !important;
             color: $bg-color !important;
@@ -95,8 +100,13 @@ header {
         &:hover {
             background: $bg-color;
             color: white;
-            border: none;
+            border-color: $bg-color;
         }
+        &:active {
+        background: $bg-color;
+            color: white;
+            border-color: $bg-color;
+        }    
     }
 }
 
