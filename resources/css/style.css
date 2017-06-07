@@ -27,6 +27,9 @@
   #logo {
     font-size: 12.5rem !important;
   }
+  .navbar-nav {
+    margin: 0;
+  }
 }
 
 body {
@@ -40,7 +43,7 @@ a {
   color: #000;
 }
 
-a:hover {
+a:hover, a.navbar-toggle:focus, footer li a:focus {
   color: white;
   text-decoration: none;
 }
@@ -95,10 +98,9 @@ header .container {
   color: black !important;
 }
 
-.navbar-default a:hover {
-  background: black !important;
+.navbar-default a:hover, .navbar-default a.navbar-toggle:focus, .navbar-default footer li a:focus, footer li .navbar-default a:focus {
+  background: white !important;
   color: #FFCAD4 !important;
-  border-radius: 10px;
 }
 
 .navbar-default .active {
@@ -109,7 +111,7 @@ header .container {
   background-color: white !important;
 }
 
-.navbar-default .active a:hover {
+.navbar-default .active a:hover, .navbar-default .active a.navbar-toggle:focus, .navbar-default .active footer li a:focus, footer li .navbar-default .active a:focus {
   border-radius: 0;
 }
 
@@ -117,6 +119,23 @@ header .container {
   display: flex;
   justify-content: center;
   float: none;
+}
+
+.navbar-toggle {
+  border-color: black !important;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: black !important;
+}
+
+.nav li:hover, .nav li.navbar-toggle:focus {
+  background: white;
 }
 
 .item {
@@ -129,7 +148,7 @@ header .container {
   margin-bottom: 20px;
 }
 
-.item .btn:hover {
+.item .btn:hover, .item .btn.navbar-toggle:focus, .item footer li a.btn:focus, footer li .item a.btn:focus {
   background: #FFCAD4;
   color: white;
   border-color: #FFCAD4;
@@ -166,7 +185,7 @@ header .container {
   color: white;
 }
 
-#link-about:hover {
+#link-about:hover, #link-about.navbar-toggle:focus, footer li a#link-about:focus {
   color: white;
   border: 1px solid white;
   padding: 5px;
@@ -241,4 +260,17 @@ footer nav {
 footer p {
   padding: 15px 0;
   margin-bottom: 0;
+}
+
+footer li a {
+  line-height: inherit !important;
+}
+
+footer li a:hover, footer li a.navbar-toggle:focus, footer li a:focus {
+  background: white !important;
+  color: #FFCAD4 !important;
+}
+
+footer li a:focus {
+  color: black !important;
 }
