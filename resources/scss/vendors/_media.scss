@@ -60,7 +60,6 @@
         flex-direction: column;
         justify-content: center;
     }
-    
     .short-text {
         height: auto !important;
         margin-bottom: 20px;
@@ -68,10 +67,10 @@
 }
 
 @media only screen and (max-width: 480px) {
-        #logo {
+    #logo {
         font-size: $logo-font-size / 4 !important;
     }
-} 
-
-
-
+    #sub-logo {
+        font-family: "Times New Roman", Times, serif !important;
+    }
+}
