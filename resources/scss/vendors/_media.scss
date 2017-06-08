@@ -34,9 +34,15 @@
 
 @media only screen and (max-width: 768px) {
     .item {
+        border-bottom: 1px solid $bg-color !important;
+        border-radius: 0;
         img {
             height: auto !important;
         }
+    }
+    
+    #lastItem {
+        border-bottom: none !important;
     }
     #main {
         .row {
@@ -45,7 +51,7 @@
         }
     }
     #logo {
-        font-size: $logo-font-size / 2 !important;
+        font-size: $logo-font-size / 4 !important;
     }
     
     .navbar-nav {
