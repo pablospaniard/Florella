@@ -60,6 +60,11 @@
         flex-direction: column;
         justify-content: center;
     }
+    
+    .short-text {
+        height: auto !important;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
