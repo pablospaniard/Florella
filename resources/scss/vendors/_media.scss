@@ -48,6 +48,9 @@
     #logo {
         font-size: $logo-font-size / 2 !important;
     }
+    #sub-logo {
+        font-family: "Times New Roman", Times, serif !important;
+    }
     .navbar-nav {
         margin: 0;
         display: flex;
@@ -69,8 +72,5 @@
 @media only screen and (max-width: 480px) {
     #logo {
         font-size: $logo-font-size / 4 !important;
-    }
-    #sub-logo {
-        font-family: "Times New Roman", Times, serif !important;
     }
 }
