@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./resources/css/normalize.css">
     <link rel="stylesheet" href="./resources/css/bootstrap/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/font_awesome/font-awesome.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Old+Standard+TT:400,400i,700" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="./resources/fonts/EdwardianScriptITC.ttf" type="text/css">
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
@@ -21,10 +22,15 @@
 
     <header class="navbar navbar-static-top navbar-fixed-top">
         <div class="container">
-            <a href="#" id="order">Закажите букет прямо сейчас</a>
-            <div class="social navbar-right">
+            <div id="email">
+                <a href="mailto:natalia@florella.es" class="header-contact"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> natalia@florella.es</a>
+            </div>
+            <div class="social">
                 <a href="" class="social-icon"><i class="fa fa-facebook-square fa-lg"></i></a>
                 <a href="" class="social-icon"><i class="fa fa-instagram fa-lg"></i></a>
+            </div>
+            <div>
+                <a href="tel:+34615669579" class="header-contact"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i> 615 669 579</a>
             </div>
         </div>
     </header>
@@ -32,7 +38,7 @@
     <div class="container-fluid" id="jumbotron">
         <div class="jumbotron">
             <h1 id="logo">Florella</h1>
-            <h3>Эксклюзивные букеты / Украшение свадеб / Подарочные варианты</h3>
+            <h3 id="sub-logo">Эксклюзивные букеты / Украшение свадеб / Подарочные варианты</h3>
         </div>
     </div>
 
@@ -48,11 +54,12 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Advices</a></li>
-                    <li><a href="#">Flowers</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="#">Главная</a></li>
+                    <li><a href="#">Букеты</a></li>
+                    <li><a href="#">Композиции</a></li>
+                    <li><a href="#">Свадьбы</a></li>
+                    <li><a href="#">Подписка</a></li>
+                    <li><a href="#">Сезонные</a></li>
                 </ul>
             </div>
         </div>
@@ -63,60 +70,60 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="item thumbnail">
-                        <img src="./resources/img/item.jpeg" alt="...">
+                        <img src="./resources/img/gift-bouquet.jpg" alt="Gift bouquet">
                         <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odit minus nobis praesentium facilis voluptatem. At atque repellendus ullam eius, id, delectus, nobis explicabo itaque eos dicta similique recusandae corporis?</p>
+                            <h3>Подарочные букеты</h3>
+                            <p class="short-text">Расскажите мне для кого и по какому случаю букет, а так же о ваших пожеланиях по цветовой гамме и составу - это поможет сделать идеальный букет.</p>
                             <p><a href="#" class="btn btn-default" role="button">Посмотреть примеры</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="item thumbnail">
-                        <img src="./resources/img/item.jpeg" alt="...">
+                        <img src="./resources/img/mono-bouquet.jpg" alt="Mono bouquet">
                         <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odit minus nobis praesentium facilis voluptatem. At atque repellendus ullam eius, id, delectus, nobis explicabo itaque eos dicta similique recusandae corporis?</p>
+                            <h3>Монобукеты</h3>
+                            <p class="short-text">Монобукеты - букеты из цветов одного вида. Самые популярные цветы, используемые в монобукетах- это розы, пионы, тюльпаны, гортензии и лилии.</p>
                             <p><a href="#" class="btn btn-default" role="button">Посмотреть примеры</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="item thumbnail">
-                        <img src="./resources/img/item.jpeg" alt="...">
+                        <img src="./resources/img/bucket-bouquet.jpg" alt="Bucket bouquet">
                         <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odit minus nobis praesentium facilis voluptatem. At atque repellendus ullam eius, id, delectus, nobis explicabo itaque eos dicta similique recusandae corporis?</p>
+                            <h3>Цветочные композиции</h3>
+                            <p class="short-text">Цветочная композиции может быть преподнесена в корзина или коробке. Кроме цветов там может быть подарок, любимые сладости или мягкая игрушка.</p>
                             <p><a href="#" class="btn btn-default" role="button">Посмотреть примеры</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="item thumbnail">
-                        <img src="./resources/img/item.jpeg" alt="...">
+                        <img src="./resources/img/theme-bouquet.jpg" alt="Theme bouquet">
                         <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odit minus nobis praesentium facilis voluptatem. At atque repellendus ullam eius, id, delectus, nobis explicabo itaque eos dicta similique recusandae corporis?</p>
+                            <h3>Праздничные композиции</h3>
+                            <p class="short-text">Тематические композиции- это композиции, которые я сделаю специально к празднику: пасхе, новому году, детскому дню рождения и другому празднику.</p>
                             <p><a href="#" class="btn btn-default" role="button">Посмотреть примеры</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="item thumbnail">
-                        <img src="./resources/img/item.jpeg" alt="...">
+                        <img src="./resources/img/compliment-bouquet.jpg" alt="Compliment bouquet">
                         <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odit minus nobis praesentium facilis voluptatem. At atque repellendus ullam eius, id, delectus, nobis explicabo itaque eos dicta similique recusandae corporis?</p>
+                            <h3>Коплимент</h3>
+                            <p class="short-text">Коллекция букетов этой серии создана специально для тех, кто ценит стильные детали и не может устоять перед соблазном дарить цветы по любому приятному поводу.</p>
                             <p><a href="#" class="btn btn-default" role="button">Посмотреть примеры</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="item thumbnail">
-                        <img src="./resources/img/item.jpeg" alt="...">
+                        <img src="./resources/img/bride-bouquet.jpg" alt="Bride bouquet" style="margin-left: -50px;">
                         <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odit minus nobis praesentium facilis voluptatem. At atque repellendus ullam eius, id, delectus, nobis explicabo itaque eos dicta similique recusandae corporis?</p>
+                            <h3>Свадебная флористика</h3>
+                            <p class="short-text">Свадебная флористика — это моя особая любовь. Цветы на свадьбе — это и букет невесты, и бутоньерка для жениха, и цветы для подружек невесты. </p>
                             <p><a href="#" class="btn btn-default" role="button">Посмотреть примеры</a></p>
                         </div>
                     </div>
@@ -156,36 +163,17 @@
         </div>
     </section>
 
-    <!--
-    <section id="advice">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <hr>
-                    <div id="advice-image">
-                        <h2>Полезные Советы</h2>
-                    </div>
-                    <div class="container">
-                        <p class="text-testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis accusantium vel numquam debitis. Incidunt quae deserunt, impedit distinctio beatae numquam! Architecto, eos, quibusdam. Distinctio sit quod, quae obcaecati? In, soluta.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium repellendus illum, eos nobis rerum unde saepe fugit nulla placeat aut accusamus dicta architecto modi omnis in doloribus tempora dolore illo.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt beatae commodi voluptate quia rem? Labore porro atque quidem doloremque, tenetur iste, qui itaque totam praesentium eius cupiditate soluta et mollitia! <a id="link-advice" href="#"> Read More...</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-
     <footer>
         <div class="container">
             <p>Florella 2017 ©</p>
             <nav>
                 <ul class="nav navbar-nav" id="bottom-menu">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li class="active"><a href="#">Главная</a></li>
+                    <li><a href="#">Букеты</a></li>
+                    <li><a href="#">Композиции</a></li>
+                    <li><a href="#">Свадьбы</a></li>
+                    <li><a href="#">Подписка</a></li>
+                    <li><a href="#">Сезонные</a></li>
                 </ul>
             </nav>
             <p id="redstar">Created by RedStarDeveloper</p>
