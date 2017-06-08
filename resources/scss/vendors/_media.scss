@@ -46,7 +46,7 @@
         }
     }
     #logo {
-        font-size: $logo-font-size / 4 !important;
+        font-size: $logo-font-size / 2 !important;
     }
     .navbar-nav {
         margin: 0;
@@ -61,3 +61,12 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 480px) {
+        #logo {
+        font-size: $logo-font-size / 4 !important;
+    }
+} 
+
+
+
