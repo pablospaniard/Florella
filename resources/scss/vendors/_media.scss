@@ -9,6 +9,10 @@
          .container{
              width: 100%;
          }
+         .row {
+             text-align: center;
+             margin: auto;
+         }
     }
     
     .text-about {
@@ -18,12 +22,20 @@
     #bottom-menu {
         display: none;
     }
+    
+    .item {
+        img {
+            margin: 0 auto !important;
+            width: 90%;
+    }
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
     .item {
         img {
-            width: 75%;
+            height: auto !important;
         }
     }
     #main {

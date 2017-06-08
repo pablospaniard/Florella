@@ -1,3 +1,3 @@
  $(document).ready(function(){
-      $('.parallax').parallax();
+      $('.parallax-window').parallax({imageSrc: '../resources/img/bg-foto.jpeg'});
     });
