@@ -93,7 +93,7 @@ header {
     border-radius: 0;
     font-size: 2rem;
     a {
-        margin: 0 15px;
+        margin: 0;
         color: black !important;
         &:hover {
             background: white !important;
@@ -113,7 +113,7 @@ header {
 
 .navbar-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     float: none;
 }
 
@@ -180,7 +180,7 @@ header {
         }
     }
     p {
-        margin: 0 15px !important;
+        margin: 0;
     }
 }
 #mobile-menu {
@@ -305,4 +305,13 @@ footer {
             }
         }
     }
+    .down {
+        &:hover {
+            ul { 
+                bottom: 51px;
+                top: auto;
+            }
+        }
+    }
 }
+
