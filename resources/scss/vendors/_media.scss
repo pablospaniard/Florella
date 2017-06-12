@@ -26,6 +26,22 @@
             width: 90%;
         }
     }
+    #page-row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    .image {
+        img {
+            height: 300px;
+            width: 75%;
+            opacity: 1 !important;
+            transition: none !important;
+            &:hover {
+                transform: none !important;
+            }
+        }
+    }
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -75,7 +91,14 @@
     #desktop-menu {
         display: none;
     }
-
+    #page-row {
+    .image {
+        img {
+            width: auto;
+            max-width: 300px;
+        }
+    }
+    }
 }
 
 @media only screen and (max-width: 480px) {

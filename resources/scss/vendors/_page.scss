@@ -1,0 +1,42 @@
+
+#page-row {
+    margin-bottom: 20px;
+    .image {
+        display: flex;
+        justify-content: center;
+        a {
+            z-index: 1;
+        }
+        }
+        img {
+            height: 300px;
+            padding: 0;
+            margin: 20px 0;
+            min-width: 300px;
+            opacity: 0.5;
+            transition: transform 1s, opacity 1s;
+            &:hover {
+                transform: scale(1.7);
+                opacity: 1;
+            }
+        }
+    }
+
+#page-about {
+    text-align: center;
+    p {
+        margin: 20px 0;
+    }
+}
+
+.insta {
+    color: red;
+    font-size: 2rem;
+    a {
+        color: red;
+        &:hover {
+            color: red;
+            cursor: pointer;
+        }
+    }
+}

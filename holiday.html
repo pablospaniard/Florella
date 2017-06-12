@@ -13,14 +13,12 @@
     <link rel="stylesheet" href="resources/css/bootstrap/bootstrap.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Old+Standard+TT:400,400i,700" rel="stylesheet">
     <!-- Custom styles for this template -->
-
     <link rel="stylesheet" href="resources/css/style.css" type="text/css">
-
 </head>
 
 <body>
 
-<!--HEADER-->
+    <!--HEADER-->
     <header class="navbar navbar-static-top navbar-fixed-top">
         <div class="container">
             <div id="email">
@@ -35,14 +33,14 @@
             </div>
         </div>
     </header>
-<!--JUMBOTRON-->
+    <!--JUMBOTRON-->
     <div class="container-fluid" id="jumbotron">
         <div class="jumbotron parallax-window" data-parallax="scroll" data-image-src="resources/img/bg-foto.jpeg">
             <h1 id="logo">Florella</h1>
             <h3 id="sub-logo">Подарочные букеты / Оформление свадеб / Цветочные композиции</h3>
         </div>
     </div>
-<!--NAVIGATION-->
+    <!--NAVIGATION-->
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
@@ -54,40 +52,108 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" id="desktop-menu">
                     <li><a href="index.html">Главная</a></li>
-                    <li class="active"><a href="bouquets.html">Букеты</a></li>
-                    <li><a href="bucket.html">Композиции</a></li>
+                    <li class="dropdown active">
+                        <p>Букеты</p>
+                        <ul>
+                            <li><a href="holiday.html">Подарочные</a></li>
+                            <li><a href="#">Монобукеты</a></li>
+                            <li><a href="#">Коплимент</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <p>Композиции</p>
+                        <ul>
+                            <li><a href="#">Цветочные</a></li>
+                            <li><a href="#">Праздичные</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="wedding.html">Свадьбы</a></li>
+                    <li><a href="season.html">Сезонные</a></li>
+                </ul>
+                <ul class="nav navbar-nav" id="mobile-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="active"><a href="holiday.html">Подарочные</a></li>
+                    <li><a href="#">Монобукеты</a></li>
+                    <li><a href="#">Коплимент</a></li>
+                    <li><a href="#">Цветочные</a></li>
+                    <li><a href="#">Праздичные</a></li>
                     <li><a href="wedding.html">Свадьбы</a></li>
                     <li><a href="season.html">Сезонные</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-<!--MAIN    -->
-  <div class="container">
-      <div class="row">
-          <p></p>
-      </div>
-  </div>
-   
-  
- 
+    <!--MAIN-->
+    <div class="container" id="page">
+        <div class="row">
+            <div class="col-xs-12" id="page-about">
+                <h1>Подарочные букеты</h1>
+                <p>Расскажите мне для кого и по какому случаю букет, а так же о ваших пожеланиях по цветовой гамме и составу - это поможет сделать идеальный букет.</p>
 
+            </div>
+        </div>
+        <div class="row" id="page-row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/1.jpg" class="image-popup-vertical-fit">
+                        <img src="resources/img/gift/1.jpg" alt="gift bouquet">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image"><img src="resources/img/gift/2.jpg" alt="gift bouquet"></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image"><img src="resources/img/gift/3.jpg" alt="gift bouquet"></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image"><img src="resources/img/gift/4.jpg" alt="gift bouquet"></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image"><img src="resources/img/gift/5.jpg" alt="gift bouquet"></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image"><img src="resources/img/gift/6.jpg" alt="gift bouquet"></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image"><img src="resources/img/gift/7.jpg" alt="gift bouquet"></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image"><img src="resources/img/gift/8.jpg" alt="gift bouquet"></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image"><img src="resources/img/gift/9.jpg" alt="gift bouquet"></div>
+            </div>
+        </div>
+        <div id="page-about" class="row">
+            <p class="insta">Больше букетов Вы можете увидеть в моём аккаунте <a href="https://www.instagram.com/florella_lloret/" target="_blank">Instagram.</a></p>
+        </div>
+    </div>
 
-
-
-
-
-<!--FOOTER-->
+    <!--FOOTER-->
     <footer>
         <div class="container">
             <p>Florella 2017 ©</p>
-            <nav>
-                <ul class="nav navbar-nav" id="bottom-menu">
+            <nav id="bottom-menu">
+                <ul class="nav navbar-nav" id="desktop-menu">
                     <li><a href="index.html">Главная</a></li>
-                    <li class="active"><a href="bouquets.html">Букеты</a></li>
-                    <li><a href="bucket.html">Композиции</a></li>
+                    <li class="dropdown down active">
+                        <p>Букеты</p>
+                        <ul>
+                            <li><a href="holiday.html">Подарочные</a></li>
+                            <li><a href="#">Монобукеты</a></li>
+                            <li><a href="#">Коплимент</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown down">
+                        <p>Композиции</p>
+                        <ul>
+                            <li><a href="#">Цветочные</a></li>
+                            <li><a href="#">Праздичные</a></li>
+                        </ul>
+                    </li>
                     <li><a href="wedding.html">Свадьбы</a></li>
                     <li><a href="season.html">Сезонные</a></li>
                 </ul>
