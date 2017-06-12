@@ -54,8 +54,10 @@ $(document).ready(function() {
   $(window).bind('scroll', function () {
     if ($(this).scrollTop() > 448) {
         $('#fixed-menu').addClass('fixed');
+        $('.scrolled').css({'margin-top':' 90px'})
     } else {
         $('#fixed-menu').removeClass('fixed');
+        $('.scrolled').css({'margin-top':' 0'})
     }
 });
 
