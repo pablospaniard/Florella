@@ -36,6 +36,7 @@
 
   p {
     margin: 20px 0;
+    font-size: 2rem;
   }
 }
 
@@ -61,14 +62,14 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.8) repeat;
   text-align: center;
-  z-index: 2;
+  z-index: 3;
 
   p {
     text-align: right;
     color: #fff;
     margin-right: 70px;
     margin-top: 70px;
-    font-size: 12px;
+    font-size: 2rem;
     cursor: pointer;
   }
 

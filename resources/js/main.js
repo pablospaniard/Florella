@@ -12,8 +12,7 @@ $(document).ready(function() {
     },
     function() {
       $(this).children('.sub-menu').slideUp(200);
-    }
-  );
+  });
 
   // Lightbox
   $('.lightbox_trigger').click(function(e) {
@@ -36,7 +35,7 @@ $(document).ready(function() {
       //create HTML markup for lightbox window
       var lightbox =
         '<div id="lightbox">' +
-          '<p>Click to close</p>' +
+          '<p>Нажмите чтобы закрыть</p>' +
           '<div id="content">' + //insert clicked link's href into img src
             '<img src="' + image_href + '" />' +
           '</div>' +
@@ -49,8 +48,16 @@ $(document).ready(function() {
     $('#lightbox').click(function() { //must use live, as the lightbox element is inserted into the DOM
       $('#lightbox').hide();
     });
-
   });
+
+  // Fixed Menu
+  $(window).bind('scroll', function () {
+    if ($(this).scrollTop() > 448) {
+        $('#fixed-menu').addClass('fixed');
+    } else {
+        $('#fixed-menu').removeClass('fixed');
+    }
+});
 
 
 });

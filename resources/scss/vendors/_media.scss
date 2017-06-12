@@ -1,108 +1,126 @@
 @media only screen and (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
+  .container {
+    width: 970px;
+  }
 }
-
 @media only screen and (max-width: 992px) {
-    #main {
-        .container {
-            width: 100%;
-        }
-        .row {
-            text-align: center;
-            margin: auto;
-        }
+  #main {
+    .container {
+      width: 100%;
     }
-    .text-about {
-        width: 100% !important;
-    }
-    #bottom-menu {
-        display: none;
-    }
-    .item {
-        img {
-            margin: 0 auto !important;
-            width: 90%;
-        }
-    }
-    #page-row {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    .image {
-        img {
-            height: 300px;
-            width: 75%;
-            opacity: 1 !important;
-            transition: none !important;
-            &:hover {
-                transform: none !important;
-            }
-        }
-    }
-}
-}
 
-@media only screen and (max-width: 768px) {
-    .item {
-        border-bottom: 1px solid $bg-color !important;
-        border-radius: 0;
-        img {
-            height: auto !important;
-        }
+    .row {
+      text-align: center;
+      margin: auto;
     }
-    #lastItem {
-        border-bottom: none !important;
+  }
+
+  .text-about {
+    width: 100% !important;
+  }
+
+  #bottom-menu {
+    display: none;
+  }
+
+  .item {
+    img {
+      margin: 0 auto !important;
+      width: 90%;
     }
-    #main {
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    }
-    #logo {
-        font-size: $logo-font-size / 2 !important;
-    }
-    #sub-logo {
-        font-family: "Times New Roman", Times, serif !important;
-    }
-    .navbar-nav {
-        margin: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .jumbotron {
+  }
+
+  #page-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .image {
+      a {
+        pointer-events: none;
+      }
+      img {
         height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .short-text {
-        height: auto !important;
-        margin-bottom: 20px;
-    }
-    #mobile-menu {
-        display: flex !important;
-        justify-content: center;
-        float: none;
-    }
-    #desktop-menu {
-        display: none;
-    }
-    #page-row {
-    .image {
-        img {
-            width: auto;
-            max-width: 300px;
-        }
-    }
-    }
-}
+        width: 75%;
+        opacity: 1 !important;
+        transition: none !important;
 
-@media only screen and (max-width: 480px) {
-    #logo {
-        font-size: $logo-font-size / 4 !important;
+        &:hover {
+          transform: none !important;
+        }
+      }
     }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .item {
+    border-bottom: 1px solid $bg-color !important;
+    border-radius: 0;
+
+    img {
+      height: auto !important;
+    }
+  }
+
+  #lastItem {
+    border-bottom: none !important;
+  }
+
+  #main {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  #logo {
+    font-size: $logo-font-size / 2 !important;
+  }
+
+  #sub-logo {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+
+  .navbar-nav {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .jumbotron {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .short-text {
+    height: auto !important;
+    margin-bottom: 20px;
+  }
+
+  #mobile-menu {
+    display: flex !important;
+    justify-content: center;
+    float: none;
+  }
+
+  #desktop-menu {
+    display: none;
+  }
+
+  #page-row {
+    .image {
+      img {
+        width: auto;
+        max-width: 300px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  #logo {
+    font-size: $logo-font-size / 4 !important;
+  }
 }

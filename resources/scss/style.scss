@@ -190,6 +190,13 @@ header {
     display: none;
 }
 
+.fixed {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  z-index: 2;
+}
+
 //MAIN ITEMS
 .item {
     border: none;
