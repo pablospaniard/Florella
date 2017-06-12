@@ -52,7 +52,7 @@ $(document).ready(function() {
 
   // Fixed Menu
   $(window).bind('scroll', function () {
-    if ($(this).scrollTop() > 448) {
+    if ($(this).scrollTop() > 447) {
         $('#fixed-menu').addClass('fixed');
         $('.scrolled').css({'margin-top':' 90px'})
     } else {
