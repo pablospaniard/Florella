@@ -52,12 +52,12 @@ $(document).ready(function() {
 
   // Fixed Menu
   $(window).bind('scroll', function () {
-    if ($(this).scrollTop() > 447) {
+    if ($(this).scrollTop() > 447 && $(window).width() > 767) {
         $('#fixed-menu').addClass('fixed');
-        $('.scrolled').css({'margin-top':' 90px'})
+        $('.scrolled').css({'margin-top':' 90px'});
     } else {
         $('#fixed-menu').removeClass('fixed');
-        $('.scrolled').css({'margin-top':' 0'})
+        $('.scrolled').css({'margin-top':' 0'});
     }
 });
 
