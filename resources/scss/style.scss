@@ -39,6 +39,10 @@ a {
     }
 }
 
+.navbar {
+  border: none !important;
+}
+
 
 //HEADER
 header {
@@ -66,10 +70,12 @@ header {
     margin-top: 50px;
     color: $primary-text-color;
     text-shadow: 3px 3px 100px black;
+    height: 401px;
     .jumbotron {
         border-radius: 0;
         margin-bottom: 0;
         text-align: center;
+        height: 100%;
     }
 }
 
@@ -85,16 +91,17 @@ header {
 .parallax-window {
     min-height: 200px;
     background: transparent;
-    left: 50%;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
 }
 
 //NAVBAR
 .navbar-default {
     background: $bg-color;
     margin-bottom: 40px;
-    border: none;
     border-radius: 0;
     font-size: 2rem;
+    width: 100%;
     a {
         margin: 0;
         color: black !important;
@@ -192,8 +199,10 @@ header {
 
 .fixed {
   position: fixed;
-  top: 50px;
+  top: 49px;
   width: 100%;
+  border: none;
+  border-radius: 0;
   z-index: 2;
 }
 
