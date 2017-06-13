@@ -62,6 +62,22 @@
   text-align: center;
   z-index: 3;
 
+  #content {
+    display: flex;
+    justify-content: center;
+    img {
+      box-shadow:0 0 25px #111;
+      -webkit-box-shadow:0 0 25px #111;
+      -moz-box-shadow:0 0 25px #111;
+      position: absolute;
+      height: auto;
+      max-height: 70%;
+      width: auto;
+      margin: auto;
+      margin-top: 50px;
+    }
+  }
+
   p {
     text-align: right;
     color: #fff;
@@ -71,11 +87,5 @@
     cursor: pointer;
   }
 
-  img {
-    box-shadow:0 0 25px #111;
-    -webkit-box-shadow:0 0 25px #111;
-    -moz-box-shadow:0 0 25px #111;
-    max-width:940px;
-    margin-top: 100px;
-  }
+
 }
