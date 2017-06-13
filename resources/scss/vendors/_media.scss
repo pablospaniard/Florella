@@ -38,13 +38,15 @@
     .image {
       a {
         pointer-events: none;
-      }
-      img {
-        height: 300px;
-        width: 75%;
-        opacity: 1 !important;
-        transition: none !important;
 
+        img {
+          height: 300px;
+          width: 75%;
+          opacity: 1 !important;
+          transition: none !important;
+          left: 0 !important;
+
+      }
         &:hover {
           transform: none !important;
         }
