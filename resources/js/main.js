@@ -2,8 +2,12 @@ $(document).ready(function() {
 
   // Parallax
   $('.parallax-window').parallax({
-    imageSrc: './resources/img/bg-foto.jpeg'
-  });
+    imageSrc: 'resources/img/bg-foto.jpeg',
+    iosFix: true,
+    overScrollFix: true
+  }).trigger('scroll');
+
+
 
   // Dropdown
   $('.dropdown').hover(
@@ -12,7 +16,7 @@ $(document).ready(function() {
     },
     function() {
       $(this).children('.sub-menu').slideUp(200);
-  });
+    });
 
   // Lightbox
   $('.lightbox_trigger').click(function(e) {
@@ -52,14 +56,13 @@ $(document).ready(function() {
 
   // Fixed Menu
   $(window).bind('scroll', function () {
-    if ($(this).scrollTop() > 447 && $(window).width() > 767) {
+    if ($(this).scrollTop() > 400 && $(window).width() > 767) {
         $('#fixed-menu').addClass('fixed');
         $('.scrolled').css({'margin-top':' 90px'});
     } else {
         $('#fixed-menu').removeClass('fixed');
         $('.scrolled').css({'margin-top':' 0'});
     }
-});
-
+  });
 
 });
