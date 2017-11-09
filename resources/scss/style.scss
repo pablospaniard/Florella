@@ -1,8 +1,13 @@
 $logo-font: 'Edwardian Script ITC';
 $primary-text-color: #fff;
-$bg-color: #FFCAD4;
+$bg-color: #ffcad4;
 $logo-font-size: 25rem;
 $h3-font: 'Lobster',cursive;
+
+@font-face {
+    font-family: $logo-font;
+    src: url('../fonts/EdwardianScriptITC.ttf');
+}
 
 @import "vendors/media";
 @import "vendors/page";
