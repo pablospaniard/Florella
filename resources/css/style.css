@@ -121,13 +121,6 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
-  /* line 126, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/vendors/_media.scss */
-  #logo {
-    font-size: 6.25rem !important;
-  }
-}
-
 /* line 3, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/vendors/_page.scss */
 #page-row {
   margin-bottom: 20px;
@@ -301,14 +294,16 @@ header .container {
 #logo {
   font-family: "Edwardian Script ITC", "Times New Roman", Times, serif;
   font-size: 25rem;
+  color: #bcc14c;
+  text-shadow: -2px -2px 5px black;
 }
 
-/* line 92, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 94, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 #sub-logo {
   font-family: "Lobster", cursive;
 }
 
-/* line 96, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 98, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .parallax-window {
   min-height: 200px;
   background: transparent;
@@ -316,7 +311,7 @@ header .container {
   transform: translate3d(0px, 0px, 0px);
 }
 
-/* line 104, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 106, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-default {
   background: #bcc14c;
   margin-bottom: 40px;
@@ -325,62 +320,62 @@ header .container {
   width: 100%;
 }
 
-/* line 110, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 112, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-default a {
   margin: 0;
   color: black !important;
 }
 
-/* line 113, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 115, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-default a:hover, .navbar-default a.navbar-toggle:focus, .navbar-default footer li a:focus, footer li .navbar-default a:focus {
   background: white !important;
   color: #bcc14c !important;
 }
 
-/* line 118, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 120, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-default .active {
   background: white;
 }
 
-/* line 120, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 122, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-default .active a {
   background-color: white !important;
 }
 
-/* line 122, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 124, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-default .active a:hover, .navbar-default .active a.navbar-toggle:focus, .navbar-default .active footer li a:focus, footer li .navbar-default .active a:focus {
   border-radius: 0;
 }
 
-/* line 129, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 131, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-nav {
   display: flex;
   justify-content: space-around;
   float: none;
 }
 
-/* line 135, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 137, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-toggle {
   border-color: black !important;
 }
 
-/* line 137, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 139, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-toggle:hover, .navbar-toggle:focus {
   background-color: white !important;
   border-color: white !important;
 }
 
-/* line 144, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 146, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .navbar-toggle .icon-bar {
   background-color: black !important;
 }
 
-/* line 151, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 153, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .nav li:hover, .nav li.navbar-toggle:focus {
   background: white;
 }
 
-/* line 157, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 159, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .dropdown {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -394,12 +389,12 @@ header .container {
   padding: 0 15px;
 }
 
-/* line 164, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 166, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .dropdown:hover, .dropdown.navbar-toggle:focus, footer li a.dropdown:focus {
   color: #bcc14c !important;
 }
 
-/* line 168, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 170, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .dropdown:hover ul, .dropdown.navbar-toggle:focus ul, footer li a.dropdown:focus ul {
   display: inline-flex;
   flex-direction: column;
@@ -414,7 +409,7 @@ header .container {
   border: 1px solid #bcc14c;
 }
 
-/* line 182, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 184, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .dropdown ul {
   -webkit-transiton: opacity 0.2s;
   -moz-transition: opacity 0.2s;
@@ -429,27 +424,27 @@ header .container {
   visibility: hidden;
 }
 
-/* line 190, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 192, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .dropdown ul li {
   display: block;
 }
 
-/* line 192, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 194, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .dropdown ul li:hover, .dropdown ul li.navbar-toggle:focus {
   background: white;
 }
 
-/* line 197, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 199, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .dropdown p {
   margin: 0;
 }
 
-/* line 201, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 203, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 #mobile-menu {
   display: none;
 }
 
-/* line 205, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 207, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .fixed {
   position: fixed;
   top: 49px;
@@ -459,45 +454,45 @@ header .container {
   z-index: 2;
 }
 
-/* line 215, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 217, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .item {
   border: none;
   padding: 0;
   overflow: hidden;
 }
 
-/* line 219, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 221, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .item .btn {
   float: right;
   margin-bottom: 20px;
 }
 
-/* line 222, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 224, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .item .btn:hover, .item .btn.navbar-toggle:focus, .item footer li a.btn:focus, footer li .item a.btn:focus {
   background: #bcc14c;
   color: white;
   border-color: #bcc14c;
 }
 
-/* line 227, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 229, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .item .btn:active {
   background: #bcc14c;
   color: white;
   border-color: #bcc14c;
 }
 
-/* line 233, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 235, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .item img {
   height: 300px;
 }
 
-/* line 238, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 240, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .short-text {
   height: 150px;
   font-size: 1.7rem;
 }
 
-/* line 244, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 246, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 #about {
   font-size: 2rem;
   text-align: center;
@@ -510,7 +505,7 @@ header .container {
   color: white;
 }
 
-/* line 256, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 258, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .text-about {
   width: 970px;
   margin: 20px auto;
@@ -519,13 +514,13 @@ header .container {
   padding: 20px;
 }
 
-/* line 264, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 266, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 #link-about {
   color: white;
   margin-bottom: 40px;
 }
 
-/* line 267, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 269, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 #link-about:hover, #link-about.navbar-toggle:focus, footer li a#link-about:focus {
   color: white;
   border: 1px solid white;
@@ -533,88 +528,88 @@ header .container {
   border-radius: 10px;
 }
 
-/* line 275, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 277, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 .img-round {
   border-radius: 100%;
   height: 250px;
 }
 
-/* line 281, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 283, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 #testimonials {
   font-size: 2rem;
   text-align: center;
 }
 
-/* line 284, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 286, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 #testimonials img {
   margin-bottom: 20px;
 }
 
-/* line 287, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 289, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 #testimonials p {
   margin-bottom: 40px;
 }
 
-/* line 293, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 295, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer {
   background: #bcc14c;
   margin-top: 20px;
 }
 
-/* line 296, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 298, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer .container {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 300, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 302, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer #redstar {
   float: right;
 }
 
-/* line 303, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 305, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer nav {
   margin-bottom: 0;
 }
 
-/* line 306, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 308, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer p {
   padding: 15px 0;
   margin-bottom: 0;
 }
 
-/* line 311, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 313, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer li a {
   line-height: inherit !important;
 }
 
-/* line 313, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 315, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer li a:hover, footer li a.navbar-toggle:focus, footer li a:focus {
   background: white !important;
   color: #bcc14c !important;
 }
 
-/* line 317, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 319, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer li a:focus {
   color: black !important;
 }
 
-/* line 323, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 325, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer .active {
   background: white !important;
 }
 
-/* line 325, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 327, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer .active a {
   background-color: white !important;
 }
 
-/* line 327, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 329, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer .active a:hover, footer .active a.navbar-toggle:focus, footer .active li a:focus, footer li .active a:focus {
   border-radius: 0;
 }
 
-/* line 334, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
+/* line 336, /Users/pavel/Dropbox/Code/Projects/Florella/resources/scss/style.scss */
 footer .down:hover ul, footer .down.navbar-toggle:focus ul, footer li a.down:focus ul {
   bottom: 51px;
   top: auto;

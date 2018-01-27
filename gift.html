@@ -2,234 +2,238 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Florella</title>
-  <!-- Core files CSS -->
-  <link rel="stylesheet" href="resources/css/normalize.css">
-  <link rel="stylesheet" href="resources/fonts/EdwardianScriptITC.ttf">
-  <link rel="stylesheet" href="resources/css/bootstrap/bootstrap.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Old+Standard+TT:400,400i,700" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Florella</title>
+    <!-- Core files CSS -->
+    <link rel="stylesheet" href="resources/css/normalize.css">
+    <link rel="stylesheet" href="resources/fonts/EdwardianScriptITC.ttf">
+    <link rel="stylesheet" href="resources/css/bootstrap/bootstrap.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Old+Standard+TT:400,400i,700" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
 </head>
 
 <body>
-  <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-  (function (d, w, c) {
-      (w[c] = w[c] || []).push(function() {
-          try {
-              w.yaCounter47460127 = new Ya.Metrika2({
-                  id:47460127,
-                  clickmap:true,
-                  trackLinks:true,
-                  accurateTrackBounce:true
-              });
-          } catch(e) { }
-      });
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter47460127 = new Ya.Metrika2({
+                        id: 47460127,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true
+                    });
+                } catch (e) {}
+            });
 
-      var n = d.getElementsByTagName("script")[0],
-          s = d.createElement("script"),
-          f = function () { n.parentNode.insertBefore(s, n); };
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://mc.yandex.ru/metrika/tag.js";
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function() {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/tag.js";
 
-      if (w.opera == "[object Opera]") {
-          d.addEventListener("DOMContentLoaded", f, false);
-      } else { f(); }
-  })(document, window, "yandex_metrika_callbacks2");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/47460127" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/47460127" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 
-  <!--HEADER-->
-  <header class="navbar navbar-static-top navbar-fixed-top">
-    <div class="container">
-      <div id="email">
-        <a href="mailto:natalia@florella.es" class="header-contact"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> natalia@florella.es</a>
-      </div>
-      <div class="social">
-        <a href="https://www.facebook.com/florella.es/" target="_blank" class="social-icon"><i class="fa fa-facebook-square fa-lg"></i></a>
-        <a href="https://www.instagram.com/florella_lloret/" target="_blank" class="social-icon"><i class="fa fa-instagram fa-lg"></i></a>
-      </div>
-      <div>
-        <a href="tel:+34615669579" class="header-contact"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i> 615 669 579</a>
-      </div>
+    <!--HEADER-->
+    <header class="navbar navbar-static-top navbar-fixed-top">
+        <div class="container">
+            <div id="email">
+                <a href="mailto:natalia@florella.es" class="header-contact"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> natalia@florella.es</a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/florella.es/" target="_blank" class="social-icon"><i class="fa fa-facebook-square fa-lg"></i></a>
+                <a href="https://www.instagram.com/florella_lloret/" target="_blank" class="social-icon"><i class="fa fa-instagram fa-lg"></i></a>
+            </div>
+            <div>
+                <a href="tel:+34615669579" class="header-contact"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i> 615 669 579</a>
+            </div>
+        </div>
+    </header>
+    <!--JUMBOTRON-->
+    <div class="container-fluid" id="jumbotron">
+        <div class="jumbotron parallax-window" data-parallax="scroll" data-image-src="resources/img/bg-foto.jpeg">
+            <h1 id="logo">Florella</h1>
+            <!-- <h3 id="sub-logo">Подарочные букеты / Оформление свадеб / Цветочные композиции</h3> -->
+        </div>
     </div>
-  </header>
-  <!--JUMBOTRON-->
-  <div class="container-fluid" id="jumbotron">
-    <div class="jumbotron parallax-window" data-parallax="scroll" data-image-src="resources/img/bg-foto.jpeg">
-      <h1 id="logo">Florella</h1>
-      <!-- <h3 id="sub-logo">Подарочные букеты / Оформление свадеб / Цветочные композиции</h3> -->
-    </div>
-  </div>
-  <!--NAVIGATION-->
-  <nav class="navbar navbar-default" id="fixed-menu">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <!--NAVIGATION-->
+    <nav class="navbar navbar-default" id="fixed-menu">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav" id="desktop-menu">
-          <li><a href="index.html">Главная</a></li>
-          <li class="dropdown active">
-            <p>Букеты</p>
-            <ul>
-              <li><a href="gift.html">Подарочные</a></li>
-              <li><a href="mono.html">Монобукеты</a></li>
-              <li><a href="compliment.html">Коплимент</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <p>Композиции</p>
-            <ul>
-              <li><a href="flower.html">Цветочные</a></li>
-              <li><a href="holiday.html">Праздничные</a></li>
-            </ul>
-          </li>
-          <li><a href="wedding.html">Свадьбы</a></li>
-          <!-- <li><a href="season.html">Сезонные</a></li> -->
-        </ul>
-        <ul class="nav navbar-nav" id="mobile-menu">
-          <li><a href="index.html">Главная</a></li>
-          <li class="active"><a href="gift.html">Подарочные</a></li>
-          <li><a href="mono.html">Монобукеты</a></li>
-          <li><a href="compliment.html">Комплимент</a></li>
-          <li><a href="flower.html">Цветочные</a></li>
-          <li><a href="holiday.html">Праздничные</a></li>
-          <li><a href="wedding.html">Свадьбы</a></li>
-          <!-- <li><a href="season.html">Сезонные</a></li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--MAIN-->
-  <div class="container scrolled" id="page">
-    <div class="row">
-      <div class="col-xs-12 page-about">
-        <h1>Подарочные букеты</h1>
-        <p>Расскажите мне для кого и по какому случаю цветы, а так же о ваших пожеланиях по цветовой гамме и составу - это поможет мне сделать идеальный и неповторимый букет. Для того, чтобы учесть все ваши пожелания, мне важно получить заявку 4-5 дней.
-          Конечно, бывают случаи, когда букет нужен срочно, в таком случае букет будет составлен из цветов, которые в данный момент есть в наличии.
-        </p>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="desktop-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="dropdown active">
+                        <p>Букеты</p>
+                        <ul>
+                            <li><a href="gift.html">Подарочные</a></li>
+                            <li><a href="mono.html">Монобукеты</a></li>
+                            <li><a href="compliment.html">Коплимент</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <p>Композиции</p>
+                        <ul>
+                            <li><a href="flower.html">Цветочные</a></li>
+                            <li><a href="holiday.html">Праздничные</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="wedding.html">Свадьбы</a></li>
+                    <!-- <li><a href="season.html">Сезонные</a></li> -->
+                </ul>
+                <ul class="nav navbar-nav" id="mobile-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="active"><a href="gift.html">Подарочные</a></li>
+                    <li><a href="mono.html">Монобукеты</a></li>
+                    <li><a href="compliment.html">Комплимент</a></li>
+                    <li><a href="flower.html">Цветочные</a></li>
+                    <li><a href="holiday.html">Праздничные</a></li>
+                    <li><a href="wedding.html">Свадьбы</a></li>
+                    <!-- <li><a href="season.html">Сезонные</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--MAIN-->
+    <div class="container scrolled" id="page">
+        <div class="row">
+            <div class="col-xs-12 page-about">
+                <h1>Подарочные букеты</h1>
+                <p>Расскажите мне для кого и по какому случаю цветы, а так же о ваших пожеланиях по цветовой гамме и составу - это поможет мне сделать идеальный и неповторимый букет. Для того, чтобы учесть все ваши пожелания, мне важно получить заявку 4-5
+                    дней. Конечно, бывают случаи, когда букет нужен срочно, в таком случае букет будет составлен из цветов, которые в данный момент есть в наличии.
+                </p>
 
-      </div>
-    </div>
-    <div class="row" id="page-row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/1.jpg" class="lightbox_trigger">
+            </div>
+        </div>
+        <div class="row" id="page-row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/1.jpg" class="lightbox_trigger">
                         <img src="resources/img/gift/1.jpg" alt="gift bouquet">
                     </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/2.jpg" class="lightbox_trigger">
-                      <img src="resources/img/gift/2.jpg" alt="gift bouquet" style="margin-left: -35px;">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/2.jpg" class="lightbox_trigger">
+                      <img src="resources/img/gift/2.jpg" alt="gift bouquet">
                   </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/3.jpg" class="lightbox_trigger">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/3.jpg" class="lightbox_trigger">
                       <img src="resources/img/gift/3.jpg" alt="gift bouquet">
                   </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/4.jpg" class="lightbox_trigger">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/4.jpg" class="lightbox_trigger">
                       <img src="resources/img/gift/4.jpg" alt="gift bouquet">
                   </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/5.jpg" class="lightbox_trigger">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/5.jpg" class="lightbox_trigger">
                       <img src="resources/img/gift/5.jpg" alt="gift bouquet">
                   </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/6.jpg" class="lightbox_trigger">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/6.jpg" class="lightbox_trigger">
                       <img src="resources/img/gift/6.jpg" alt="gift bouquet">
                   </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/7.jpg" class="lightbox_trigger">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/7.jpg" class="lightbox_trigger">
                       <img src="resources/img/gift/7.jpg" alt="gift bouquet">
                   </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/8.jpg" class="lightbox_trigger">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/8.jpg" class="lightbox_trigger">
                       <img src="resources/img/gift/8.jpg" alt="gift bouquet">
                   </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="image">
-          <a href="resources/img/gift/9.jpg" class="lightbox_trigger">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="image">
+                    <a href="resources/img/gift/9.jpg" class="lightbox_trigger">
                       <img src="resources/img/gift/9.jpg" alt="gift bouquet">
                   </a>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="page-about row">
+            <p class="insta">Больше букетов Вы можете увидеть в моём аккаунте <a href="https://www.instagram.com/florella_lloret/" target="_blank">Instagram.</a></p>
+        </div>
     </div>
-    <div class="page-about row">
-      <p class="insta">Больше букетов Вы можете увидеть в моём аккаунте <a href="https://www.instagram.com/florella_lloret/" target="_blank">Instagram.</a></p>
-    </div>
-  </div>
 
-  <!--FOOTER-->
-  <footer>
-    <div class="container">
-      <p>Florella 2017 ©</p>
-      <nav id="bottom-menu">
-        <ul class="nav navbar-nav" id="desktop-menu">
-          <li><a href="index.html">Главная</a></li>
-          <li class="dropdown down active">
-            <p>Букеты</p>
-            <ul>
-              <li><a href="gift.html">Подарочные</a></li>
-              <li><a href="mono.html">Монобукеты</a></li>
-              <li><a href="compliment.html">Коплимент</a></li>
-            </ul>
-          </li>
-          <li class="dropdown down">
-            <p>Композиции</p>
-            <ul>
-              <li><a href="flower.html">Цветочные</a></li>
-              <li><a href="holiday.html">Праздничные</a></li>
-            </ul>
-          </li>
-          <li><a href="wedding.html">Свадьбы</a></li>
-          <!-- <li><a href="season.html">Сезонные</a></li> -->
-        </ul>
-      </nav>
-      <p id="redstar">Created by RedStarDeveloper</p>
-    </div>
-  </footer>
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <p>Florella 2017 ©</p>
+            <nav id="bottom-menu">
+                <ul class="nav navbar-nav" id="desktop-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="dropdown down active">
+                        <p>Букеты</p>
+                        <ul>
+                            <li><a href="gift.html">Подарочные</a></li>
+                            <li><a href="mono.html">Монобукеты</a></li>
+                            <li><a href="compliment.html">Коплимент</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown down">
+                        <p>Композиции</p>
+                        <ul>
+                            <li><a href="flower.html">Цветочные</a></li>
+                            <li><a href="holiday.html">Праздничные</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="wedding.html">Свадьбы</a></li>
+                    <!-- <li><a href="season.html">Сезонные</a></li> -->
+                </ul>
+            </nav>
+            <p id="redstar">Created by RedStarDeveloper</p>
+        </div>
+    </footer>
 
 
-  <!-- JQuery and BootstrapJS, Placed at the end of the document so the pages load faster -->
-  <script src="resources/js/jquery-3.2.1.slim.js"></script>
-  <script src="https://use.fontawesome.com/54f885f465.js"></script>
-  <script src="resources/js/bootstrap.min.js"></script>
-  <script src="resources/js/parallax.min.js"></script>
-  <script src="resources/js/main.js"></script>
+    <!-- JQuery and BootstrapJS, Placed at the end of the document so the pages load faster -->
+    <script src="resources/js/jquery-3.2.1.slim.js"></script>
+    <script src="https://use.fontawesome.com/54f885f465.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/parallax.min.js"></script>
+    <script src="resources/js/main.js"></script>
 </body>
 
 </html>
